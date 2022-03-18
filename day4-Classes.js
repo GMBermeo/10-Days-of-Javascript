@@ -6,13 +6,12 @@
 class Polygon {
     constructor(args) {
         this.values = args;
-        console.log(this.values)
+        //console.log(this.values)
     }
 
     perimeter() {
         return (this.values || []).reduce((target, item) => target + item);
-        console.log(this.values || []).reduce((target, item) => target + item)
-        
+        //console.log(this.values || []).reduce((target, item) => target + item) 
     }
 }
 
